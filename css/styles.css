@@ -148,3 +148,48 @@ h1{
     color: antiquewhite;
     text-decoration: underline;
 }
+.Finals-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+
+}
+.texts_1{
+    font-size: 1.5rem;
+    color: antiquewhite;
+
+}
+ul{
+    padding: 20px;
+}
+.contain{
+    background-color:#0B2447 ;
+    display: flex;
+    gap: 30px;
+}
+.card{
+    height: 700px;
+    flex:1;
+   
+    padding: 30px;
+}
+.first{
+    padding: 30px;
+    background-color:#A5D7E8 ;
+}
+.third{
+    background-color:#A5D7E8 ;
+}
+.second{
+    background-color: #0B2447;
+}
+.card_img{
+    border-radius: 20%;
+}
+.card_text{
+    color: #A5D7E8;
+}
+.project-page{
+    background-color: #0B2447;
+}
