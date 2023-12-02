@@ -193,3 +193,25 @@ ul{
 .project-page{
     background-color: #0B2447;
 }
+#skills-page{
+    background-image: linear-gradient(to right ,#080808,#808080);
+}
+.cont{
+    /* display: flex; */
+    
+   
+
+}
+.skills{
+    /* flex:1; */
+    background-color:#303030;
+    padding:10px;
+    margin:10px;
+    display: inline-block;
+    height: 300px;
+    
+}
+.im{
+    height: 100px;
+    width: 100px;
+}
