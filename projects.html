@@ -38,12 +38,24 @@
       h2 {
         font-family: "Permanent Marker";
       }
+      h1 {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+      }
       p {
         font-family: "Hedvig Letters Serif";
       }
       .ico {
         font-family: "Hedvig Letters Serif";
       }
+      .proj:hover {
+        transform: scale(1.1);
+      }
+      .thir {
+        height: 10rem;
+        width: 10rem;
+      }
+
       @media (max-width: 680px) {
         .contain {
           display: flex;
@@ -58,10 +70,10 @@
   <body class="project-page">
     <h1 style="color: #a5d7e8">My Projects</h1>
     <div class="contain">
-      <div class="first card">
+      <div class="first card proj">
         <div class="card-body">
           <h2 class="card-title">Tindog</h2>
-          <img class="card-img-top" src="images/tindog_img.png" />
+          <img class="card-img-top imm" src="images/tindog_img.png" />
           <p class="card-text"></p>
           <p class="card-text">
             Created this project while learning Bootstrap from Angela Yu
@@ -73,7 +85,7 @@
           ></a>
         </div>
       </div>
-      <div class="second card">
+      <div class="second card proj">
         <div class="card-body">
           <h2 class="card-title card_text">Simon Game</h2>
           <img
@@ -91,10 +103,10 @@
           ></a>
         </div>
       </div>
-      <div class="third card">
+      <div class="third card proj">
         <div class="card-body">
           <h2 class="card-title">Drum-Kit</h2>
-          <img class="card-img-top" src="images/drum_ig.png" />
+          <img class="card-img-top thir" src="images/drum_ig.png" />
           <p class="card-text">
             Created this project while learning javascript from Angela Yu.
           </p>
